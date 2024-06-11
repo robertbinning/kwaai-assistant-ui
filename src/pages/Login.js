@@ -21,7 +21,7 @@ function Login() {
         localStorage.setItem('isFirstLogin', 'false');
         navigate('/agent-catalogue'); // Navigate to the Agent Catalogue page on first login
       } else {
-        navigate('/homne'); // Navigate to the dashboard page on subsequent logins
+        navigate('/home'); // Navigate to the dashboard page on subsequent logins
       }
     } catch (error) {
       console.error('Error logging in:', error.message); // Log the error message
